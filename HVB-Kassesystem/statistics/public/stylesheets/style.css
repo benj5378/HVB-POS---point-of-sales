@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Gilroy Bold';
+  src: url('/fonts/Gilroy-Bold.ttf');
+}
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url('/fonts/Raleway-Bold.ttf');
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway Bold';
+  margin-bottom: 0.3em;
+}
+
+#extreme {
+  font-size: 4em;
+  font-family: 'Gilroy Bold';
+  margin-top: 0;
+}
+
+.col2 > * {
+  display: inline-block;
+}
+.col2 > div > p:first-child {
+  margin-top:0;
+}
+.col2 > div > canvas {
+  height: 300px;
+}

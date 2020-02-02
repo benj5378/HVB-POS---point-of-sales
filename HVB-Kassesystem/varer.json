@@ -1,0 +1,108 @@
+[
+    {
+        "category": "Billetter",
+        "products": [
+            {
+                "name": "Voksen, enkel",
+                "moms": 0,
+                "price": 44
+            },
+            {
+                "name": "Voksen, retur",
+                "moms": 0,
+                "price": 70
+            },
+            {
+                "name": "Barn, enkel",
+                "moms": 0,
+                "price": 22
+            },
+            {
+                "name": "Barn, retur",
+                "moms": 0,
+                "price": 35
+            }
+        ]
+    },
+    {
+        "category": "Varer",
+        "products": [
+            {
+                "name": "Is",
+                "products": [
+                    {
+                        "name": "Guld Horn",
+                        "price": 44
+                    },
+                    {
+                        "name": "Kæmpe Eksimo",
+                        "price": 70
+                    },
+                    {
+                        "name": "Amerikaner",
+                        "price": 22
+                    },
+                    {
+                        "name": "Flødebombe",
+                        "price": 35
+                    },
+                    {
+                        "name": "Isbjørn",
+                        "price": 22
+                    },
+                    {
+                        "name": "Astronaut",
+                        "price": 35
+                    },
+                    {
+                        "name": "Kæmpe Sambi",
+                        "price": 22
+                    },
+                    {
+                        "name": "Gammeldags Flødeis Mørk",
+                        "price": 35
+                    }
+                ]
+            },
+            {
+                "name": "Drikke",
+                "products": [
+                    {
+                        "name": "Te",
+                        "price": 44
+                    },
+                    {
+                        "name": "Kaffe (ulækkert)",
+                        "price": 70
+                    },
+                    {
+                        "name": "Sodavand",
+                        "price": 22
+                    },
+                    {
+                        "name": "Vand",
+                        "price": 35
+                    }
+                    
+                ]
+            },
+            {
+                "name": "Bøger",
+                "products": [
+                    {
+                        "name": "Barn, retur",
+                        "price": 35
+                    }
+                ]
+            },
+            {
+                "name": "Postkort",
+                "price": 10
+            },
+            {
+                "name": "Toiletbesøg",
+                "price": 100
+            }
+        ]
+    }
+]

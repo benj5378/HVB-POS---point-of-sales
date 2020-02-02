@@ -1,0 +1,23 @@
+extends layout
+
+block data
+  script var data = !{data}
+  link(rel='stylesheet', href='/stylesheets/Chart.min.css')
+  script(src='/javascripts/render.js')
+  script(src="/javascripts/Chart.min.js")
+  script(src="/javascripts/jmespath.js")
+
+
+block content
+  h1#extreme Kassesystemet
+  p Valgte dato: #{date}
+  h1 Nøgleord
+  div#keyFigures.col2
+    div
+    div
+      canvas
+  h1 Varer
+  div#products.col2
+    div
+    div
+      canvas
